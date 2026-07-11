@@ -1,4 +1,3 @@
 # Cloudflare Pages redirects
-/ /en/index.html 301
-/en /en/index.html 301
-/fr /fr/index.html 301
+/en    /en/index.html    301
+/fr    /fr/index.html    301
