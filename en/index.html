@@ -22,18 +22,37 @@
   </header>
 
   <main class="container">
-    <section class="hero hero-home">
-      <div>
-        <h2>Organic Herbal Wellness for Body and Immunity</h2>
-        <p class="slogan">From West African farms to your cup — pure wellness, naturally.</p>
-        <p class="lead">Naturally sourced teas and powders from West Africa, crafted to support digestion, energy, and immune resilience.</p>
-        <div class="hero-actions">
-          <a class="btn" href="products.html">Browse products</a>
-          <a class="btn btn-secondary" href="about.html">Our story</a>
+    <section class="hero-carousel">
+      <div class="carousel-container">
+        <button class="carousel-arrow carousel-prev" aria-label="Previous">‹</button>
+        <div class="carousel-track">
+          <div class="carousel-slide active" data-url="products/soursop.html">
+            <img src="../assets/images/soursop.jpg" alt="Soursop Leaf Tea" />
+            <div class="carousel-content">
+              <h3>Soursop Leaf Tea</h3>
+              <p>Antioxidant-rich tea for digestion and immune balance.</p>
+              <a href="products/soursop.html" class="btn">Explore</a>
+            </div>
+          </div>
+          <div class="carousel-slide" data-url="products/gingcuci.html">
+            <img src="../assets/images/gingcuci-featured.png" alt="Gingcuci" />
+            <div class="carousel-content">
+              <h3>Gingcuci</h3>
+              <p>Warming ginger blend for circulation and wellness.</p>
+              <a href="products/gingcuci.html" class="btn">Explore</a>
+            </div>
+          </div>
+          <div class="carousel-slide" data-url="products/moringa.html">
+            <img src="../assets/images/moringa.jpg" alt="Moringa Powder" />
+            <div class="carousel-content">
+              <h3>Moringa Powder</h3>
+              <p>Superfood powder for energy, nutrients and vitality.</p>
+              <a href="products/moringa.html" class="btn">Explore</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="../assets/images/hero-tea.png" alt="Herbal tea products" />
+        <button class="carousel-arrow carousel-next" aria-label="Next">›</button>
+        <div class="carousel-dots"></div>
       </div>
     </section>
 

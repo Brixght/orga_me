@@ -22,18 +22,37 @@
   </header>
 
   <main class="container">
-    <section class="hero hero-home">
-      <div>
-        <h2>Santé Naturelle pour le Corps et l'Immunité</h2>
-        <p class="slogan">Des fermes ouest-africaines à votre tasse — pur bien-être, naturellement.</p>
-        <p class="lead">Thés et poudres bio d'Afrique de l'Ouest, conçus pour soutenir la digestion, l'énergie et la vitalité.</p>
-        <div class="hero-actions">
-          <a class="btn" href="products.html">Voir produits</a>
-          <a class="btn btn-secondary" href="about.html">Notre histoire</a>
+    <section class="hero-carousel">
+      <div class="carousel-container">
+        <button class="carousel-arrow carousel-prev" aria-label="Précédent">‹</button>
+        <div class="carousel-track">
+          <div class="carousel-slide active" data-url="products/soursop.html">
+            <img src="../assets/images/soursop.jpg" alt="Thé de feuilles de corossol" />
+            <div class="carousel-content">
+              <h3>Thé de feuilles de corossol</h3>
+              <p>Thé riche en antioxydants pour digestion et équilibre immunitaire.</p>
+              <a href="products/soursop.html" class="btn">Découvrir</a>
+            </div>
+          </div>
+          <div class="carousel-slide" data-url="products/gingcuci.html">
+            <img src="../assets/images/gingcuci-featured.png" alt="Gingcuci" />
+            <div class="carousel-content">
+              <h3>Gingcuci</h3>
+              <p>Mélange réchauffant au gingembre pour circulation et bien-être.</p>
+              <a href="products/gingcuci.html" class="btn">Découvrir</a>
+            </div>
+          </div>
+          <div class="carousel-slide" data-url="products/moringa.html">
+            <img src="../assets/images/moringa.jpg" alt="Poudre de Moringa" />
+            <div class="carousel-content">
+              <h3>Poudre de Moringa</h3>
+              <p>Poudre super-aliment pour énergie, nutriments et vitalité.</p>
+              <a href="products/moringa.html" class="btn">Découvrir</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="../assets/images/hero-tea.png" alt="Produits de thé herbal" />
+        <button class="carousel-arrow carousel-next" aria-label="Suivant">›</button>
+        <div class="carousel-dots"></div>
       </div>
     </section>
 
