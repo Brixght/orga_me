@@ -24,6 +24,7 @@ body {
   color: #1a3d2e;
   line-height: 1.7;
   overflow-x: hidden;
+  text-align: center;
   opacity: 0;
   animation: pageLoad 0.6s ease forwards;
 }
