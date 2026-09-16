@@ -3,67 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Browse ORGA_ME's full range of organic herbal products: soursop leaf tea, moringa powder, ginger blends, dandelion tea and more. Handcrafted in West Africa.">
+  <meta name="description" content="Browse ORGA_ME's full range: soursop leaf tea, moringa powder, ginger blends, dandelion tea and more. Handcrafted in West Africa.">
   <title>Products — ORGA_ME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="../assets/styles.css">
   <script defer src="../assets/script.js"></script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="brand">ORGA_ME</h1>
-      <nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c-5 0-8-3.5-8-8 0-5 4-9 12-9 1.5 0 3 .2 4 .6C19.5 8 20 12 20 13c0 4.5-3.5 8-8 8Z"/><path d="M12 21c0-6 2-10 7-12"/></svg></span>ORGA_ME</a>
+      <nav class="desktop-nav" aria-label="Primary">
         <a href="index.html">Home</a>
+        <div class="drop-wrap">
+          <button class="drop-btn" aria-expanded="false" aria-haspopup="true">Products ▾</button>
+          <div class="dropdown-menu" role="menu">
+            <a href="products/granulated-ginger.html"><img decoding="async"  src="../assets/images/granulated-ginger-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Granulated Ginger</strong><small>Three varieties</small></span></a>
+            <a href="products/gingcuci.html"><img decoding="async"  src="../assets/images/gingcuci-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Gingcuci</strong><small>Warming blend</small></span></a>
+            <a href="products/tea-gingcuci.html"><img decoding="async"  src="../assets/images/tea-gingcuci-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Tea Gingcuci</strong><small>Classic · powder · yellow</small></span></a>
+            <a href="products/dandelion-tea.html"><img decoding="async"  src="../assets/images/dandelion-tea-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Dandelion Tea</strong><small>Detox</small></span></a>
+            <a href="products/moringa.html"><img decoding="async"  src="../assets/images/moringa-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Moringa Powder</strong><small>Superfood</small></span></a>
+            <a href="products/soursop.html"><img decoding="async"  src="../assets/images/soursop-main.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Soursop Leaf Tea</strong><small>Immunity</small></span></a>
+          </div>
+        </div>
         <a href="about.html">About</a>
         <a href="supporters.html">Supporters</a>
-        <a href="../fr/products.html">Français</a>
       </nav>
+      <div class="nav-actions">
+        <a class="lang-toggle" href="../fr/products.html" hreflang="fr">FR</a>
+        <a class="btn btn-sm" href="tel:+221773798463">Contact</a>
+        <button class="hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+      </div>
     </div>
   </header>
-  
-  <main class="container">
-    <h2 class="reveal">Our Complete Product Range</h2>
-    <p class="lead reveal">Explore our full collection of handcrafted herbal products, each with detailed descriptions and preparation instructions.</p>
-    <div class="products-grid">
-      <article class="card">
-        <img src="../assets/images/granulated-main.png" alt="Granulated Ginger" class="card-image" />
-        <h3><a href="products/granulated-ginger.html">Granulated Ginger</a></h3>
-        <p class="muted">Premium ginger granules in three varieties for teas, cooking and wellness.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/gingcuci-main.png" alt="Gingcuci Ginger Blend" class="card-image" />
-        <h3><a href="products/gingcuci.html">Gingcuci Ginger Blend</a></h3>
-        <p class="muted">Warming blend to support circulation and wellness.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/tea-gingcuci.jpg" alt="Tea Gingcuci" class="card-image" />
-        <h3><a href="products/tea-gingcuci.html">Tea Gingcuci</a></h3>
-        <p class="muted">Classic, powder and yellow varieties for daily balance.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/dandelion-main.png" alt="Dandelion Tea" class="card-image" />
-        <h3><a href="products/dandelion-tea.html">Dandelion Tea</a></h3>
-        <p class="muted">Herbal infusion for liver support and natural detoxification.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/moringa-main.png" alt="Moringa Powder" class="card-image" />
-        <h3><a href="products/moringa.html">Moringa Powder</a></h3>
-        <p class="muted">Superfood powder for energy, nutrients and vitality.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/soursop-main.jpg" alt="Soursop Leaf Tea" class="card-image" />
-        <h3><a href="products/soursop.html">Soursop Leaf Tea</a></h3>
-        <p class="muted">Antioxidant-rich tea for digestion and immune balance.</p>
-      </article>
+  <div class="mobile-menu" id="mobileMenu"><div class="mobile-backdrop" data-close></div>
+    <nav class="mobile-panel" aria-label="Mobile"><button class="btn btn-ghost btn-sm mobile-close" data-close>Close ✕</button>
+      <a href="index.html">🏠 Home</a><a href="products.html" aria-current="page">🛍 Products</a><a href="about.html">About</a><a href="supporters.html">Supporters</a><a href="../fr/products.html">🇫🇷 Français</a>
+      <a class="btn" href="tel:+221773798463" style="margin-top:12px">📞 Contact</a></nav></div>
+  <main class="container" id="main">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><span>Products</span></nav>
+    <p class="kicker reveal-left load-1">Full range</p>
+    <h1 class="section-title reveal-left load-1">Our complete product range.</h1>
+    <p class="section-sub reveal load-2">Six handcrafted remedies. Filter by type, tap for a quick view, open for preparation guides.</p>
+    <div class="chips reveal load-3" data-chips role="group" aria-label="Filter products">
+      <button class="chip" data-filter="all" aria-pressed="true">All (6)</button>
+      <button class="chip" data-filter="tea" aria-pressed="false">Teas</button>
+      <button class="chip" data-filter="powder" aria-pressed="false">Powders</button>
+      <button class="chip" data-filter="blend" aria-pressed="false">Blends</button>
+    </div>
+    <div class="grid stagger">
+      <article class="card" tabindex="0" data-quickview data-cat="blend" data-tag="Teas & cooking" data-title="Granulated Ginger" data-desc="Premium ginger granules in three varieties for teas, cooking and wellness." data-img="../assets/images/granulated-ginger-1.jpg" data-url="products/granulated-ginger.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/granulated-ginger-1-400.webp 400w, ../assets/images/granulated-ginger-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/granulated-ginger-1-400.jpg 400w, ../assets/images/granulated-ginger-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/granulated-ginger-1.jpg" alt="Granulated Ginger" width="800" height="600" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Blend</span><h3><a href="products/granulated-ginger.html">Granulated Ginger</a></h3><p>Premium ginger granules in three varieties.</p><span class="card-link">Quick view →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="blend" data-tag="Warming blend" data-title="Gingcuci" data-desc="Warming ginger + lemon blend for circulation and wellness." data-img="../assets/images/gingcuci-1.jpg" data-url="products/gingcuci.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/gingcuci-1-400.webp 400w, ../assets/images/gingcuci-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/gingcuci-1-400.jpg 400w, ../assets/images/gingcuci-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/gingcuci-1.jpg" alt="Gingcuci" width="800" height="533" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Blend</span><h3><a href="products/gingcuci.html">Gingcuci Ginger Blend</a></h3><p>Warming blend to support circulation.</p><span class="card-link">Quick view →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="tea" data-tag="Daily balance" data-title="Tea Gingcuci" data-desc="Classic, powder and yellow varieties for daily balance." data-img="../assets/images/tea-gingcuci-1.jpg" data-url="products/tea-gingcuci.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/tea-gingcuci-1-400.webp 400w, ../assets/images/tea-gingcuci-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/tea-gingcuci-1-400.jpg 400w, ../assets/images/tea-gingcuci-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/tea-gingcuci-1.jpg" alt="Tea Gingcuci" width="800" height="533" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Tea</span><h3><a href="products/tea-gingcuci.html">Tea Gingcuci</a></h3><p>Classic, powder and yellow varieties.</p><span class="card-link">Quick view →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="tea" data-tag="Detox" data-title="Dandelion Tea" data-desc="Herbal infusion for liver support and natural detoxification." data-img="../assets/images/dandelion-tea-1.jpg" data-url="products/dandelion-tea.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/dandelion-tea-1-400.webp 400w, ../assets/images/dandelion-tea-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/dandelion-tea-1-400.jpg 400w, ../assets/images/dandelion-tea-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/dandelion-tea-1.jpg" alt="Dandelion Tea" width="800" height="1066" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Tea</span><h3><a href="products/dandelion-tea.html">Dandelion Tea</a></h3><p>Herbal infusion for liver support and detox.</p><span class="card-link">Quick view →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="powder" data-tag="Superfood" data-title="Moringa Powder" data-desc="Superfood powder for energy, nutrients and vitality." data-img="../assets/images/moringa-1.jpg" data-url="products/moringa.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/moringa-1-400.webp 400w, ../assets/images/moringa-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/moringa-1-400.jpg 400w, ../assets/images/moringa-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/moringa-1.jpg" alt="Moringa Powder" width="800" height="1067" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Powder</span><h3><a href="products/moringa.html">Moringa Powder</a></h3><p>Superfood powder for energy and vitality.</p><span class="card-link">Quick view →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="tea" data-tag="Immunity" data-title="Soursop Leaf Tea" data-desc="Antioxidant-rich tea for digestion and immune balance." data-img="../assets/images/soursop-main.jpg" data-url="products/soursop.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/soursop-main-400.webp 400w, ../assets/images/soursop-main.webp 1080w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/soursop-main-400.jpg 400w, ../assets/images/soursop-main.jpg 1080w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/soursop-main.jpg" alt="Soursop Leaf Tea" width="1080" height="774" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Tea</span><h3><a href="products/soursop.html">Soursop Leaf Tea</a></h3><p>Antioxidant-rich tea for digestion and immunity.</p><span class="card-link">Quick view →</span></div></article>
     </div>
   </main>
-  
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; ORGA_ME — Organic Products &bull; Based in Togo & Senegal</p>
-      <p><strong>Responsible:</strong> Elyzabeth K. Fanlome</p>
-      <p><strong>Phone:</strong> +221 77 379 84 63 / +221 78 125 39 77</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container"><div class="foot-grid"><div><h4>ORGA_ME</h4><p style="font-size:.93rem;color:rgba(255,255,255,.78)">Organic teas &amp; powders · Togo &amp; Senegal.</p><p style="margin-top:10px">Responsible: <strong>Elyzabeth K. Fanlome</strong></p></div><div><h4>Explore</h4><a href="index.html">Home</a><a href="products.html">All products</a><a href="about.html">About us</a><a href="supporters.html">Supporters</a></div><div><h4>Contact</h4><a href="tel:+221773798463">+221 77 379 84 63</a><a href="tel:+221781253977">+221 78 125 39 77</a><a href="../fr/products.html">Version française</a></div></div><div class="foot-base"><span>© ORGA_ME — Organic Products</span><span>Cloudflare Pages ready</span></div></div></footer>
+  <div class="overlay" id="quickView" role="dialog" aria-modal="true" aria-label="Product quick view"><div class="dialog"><div class="dialog-media"><img data-qv-img src="" alt="" width="800" height="500"></div><div class="dialog-body"><span class="card-tag" data-qv-tag></span><h3 data-qv-title></h3><p class="section-sub" data-qv-desc style="margin-bottom:18px"></p><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" data-qv-link href="#">Open full guide →</a><button class="btn btn-secondary" data-close-ov>Close</button></div></div></div></div>
 </body>
 </html>

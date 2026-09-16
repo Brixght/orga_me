@@ -3,48 +3,52 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Learn about ORGA_ME — a family-owned company from Togo and Senegal, established in 2022, crafting organic herbal teas and powders using traditional methods.">
+  <meta name="description" content="Learn about ORGA_ME — a family-owned company from Togo and Senegal, established in 2022, crafting organic herbal teas and powders.">
   <title>About — ORGA_ME</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="../assets/styles.css">
   <script defer src="../assets/script.js"></script>
 </head>
-<body class="fade-in">
-  <header class="site-header">
-    <div class="container">
-      <h1 class="brand">ORGA_ME</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="supporters.html">Supporters</a>
-        <a href="../fr/about.html">Français</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="about">
-      <h2>About Our Family Business</h2>
-      <p>
-        ORGA_ME is a family-owned company originating from Togo and Senegal, established in 2022. For generations our family
-        has gathered and prepared natural herbal products using traditional methods that prioritize quality,
-        sustainability and the health of our customers. We specialize in organic teas and nutrient-rich powders
-        made from locally sourced plants such as soursop, moringa and ginger. Our approach combines time-honored
-        West African herbal knowledge with careful drying and packaging to preserve flavour and nutrients.
-      </p>
-
-      <h3>Our Mission</h3>
-      <p>
-        To provide high-quality, organic plant-based products that nourish the body and support local communities,
-        while advancing sustainable farming and preserving traditional herbal knowledge.
-      </p>
-    </article>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader"><div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c-5 0-8-3.5-8-8 0-5 4-9 12-9 1.5 0 3 .2 4 .6C19.5 8 20 12 20 13c0 4.5-3.5 8-8 8Z"/><path d="M12 21c0-6 2-10 7-12"/></svg></span>ORGA_ME</a>
+    <nav class="desktop-nav" aria-label="Primary"><a href="index.html">Home</a><div class="drop-wrap"><button class="drop-btn" aria-expanded="false">Products ▾</button><div class="dropdown-menu"><a href="products/granulated-ginger.html"><img decoding="async"  src="../assets/images/granulated-ginger-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Granulated Ginger</strong><small>Three varieties</small></span></a><a href="products/moringa.html"><img decoding="async"  src="../assets/images/moringa-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Moringa Powder</strong><small>Superfood</small></span></a><a href="products/soursop.html"><img decoding="async"  src="../assets/images/soursop-main.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Soursop Leaf Tea</strong><small>Immunity</small></span></a></div></div><a href="about.html" aria-current="page">About</a><a href="supporters.html">Supporters</a></nav>
+    <div class="nav-actions"><a class="lang-toggle" href="../fr/about.html" hreflang="fr">FR</a><a class="btn btn-sm" href="tel:+221773798463">Contact</a><button class="hamburger" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div>
+  </div></header>
+  <div class="mobile-menu" id="mobileMenu"><div class="mobile-backdrop" data-close></div><nav class="mobile-panel" aria-label="Mobile"><button class="btn btn-ghost btn-sm mobile-close" data-close>Close ✕</button><a href="index.html">🏠 Home</a><a href="products.html">🛍 Products</a><a href="about.html" aria-current="page">About</a><a href="supporters.html">Supporters</a><a href="../fr/about.html">🇫🇷 Français</a><a class="btn" href="tel:+221773798463" style="margin-top:12px">📞 Contact</a></nav></div>
+  <main class="container" id="main">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>›</span><span>About</span></nav>
+    <section class="section" style="padding-top:20px">
+      <div class="split">
+        <div>
+          <p class="kicker reveal-left load-1">Our story</p>
+          <h1 class="section-title reveal-left load-1">About our family business.</h1>
+          <div class="prose reveal load-2">
+            <p>ORGA_ME is a family-owned company originating from Togo and Senegal, established in 2022. For generations our family has gathered and prepared natural herbal products using traditional methods that prioritize quality, sustainability and the health of our customers.</p>
+            <p>We specialize in organic teas and nutrient-rich powders made from locally sourced plants such as soursop, moringa and ginger. Our approach combines time-honored West African herbal knowledge with careful drying and packaging to preserve flavour and nutrients.</p>
+            <h2>Our mission</h2>
+            <p>To provide high-quality, organic plant-based products that nourish the body and support local communities, while advancing sustainable farming and preserving traditional herbal knowledge.</p>
+          </div>
+          <div class="hero-stats reveal load-3" style="margin-top:22px">
+            <div class="stat"><strong><span data-count="2022">0</span></strong><span>established</span></div>
+            <div class="stat"><strong><span data-count="6">0</span></strong><span>products</span></div>
+            <div class="stat"><strong><span data-count="100">0</span>%</strong><span>plant-based</span></div>
+          </div>
+        </div>
+        <div class="panel reveal load-2">
+          <h2 class="section-title" style="font-size:1.4rem">How we work</h2>
+          <div class="prose">
+            <h3>🌱 Sourced locally</h3><p>Smallholder growers in Togo and Senegal harvest at peak ripeness.</p>
+            <h3>☀️ Dried with care</h3><p>Sun- and shade-drying preserves essential oils, aroma and nutrients.</p>
+            <h3>📦 Packed small-batch</h3><p>Quality-tested for consistent potency. No additives, no preservatives.</p>
+          </div>
+          <div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="products.html">See products →</a><a class="btn btn-secondary" href="tel:+221773798463">Call us</a></div>
+        </div>
+      </div>
+    </section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© ORGA_ME — Family owned in Togo & Senegal</p>
-      <p><strong>Responsible:</strong> Elyzabeth K. Fanlome | <strong>Contact:</strong> +221 77 379 8463 / +221 78 125 3977</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container"><div class="foot-grid"><div><h4>ORGA_ME</h4><p style="font-size:.93rem;color:rgba(255,255,255,.78)">Family owned in Togo &amp; Senegal.</p><p style="margin-top:10px">Responsible: <strong>Elyzabeth K. Fanlome</strong></p></div><div><h4>Explore</h4><a href="index.html">Home</a><a href="products.html">All products</a><a href="supporters.html">Supporters</a></div><div><h4>Contact</h4><a href="tel:+221773798463">+221 77 379 84 63</a><a href="tel:+221781253977">+221 78 125 39 77</a><a href="../fr/about.html">Version française</a></div></div><div class="foot-base"><span>© ORGA_ME — Organic Products</span><span>Cloudflare Pages ready</span></div></div></footer>
 </body>
 </html>

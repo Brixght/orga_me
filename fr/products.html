@@ -3,67 +3,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Découvrez toute la gamme de produits biologiques ORGA_ME : thé de corossol, poudre de moringa, mélanges de gingembre, thé de pissenlit et plus. Artisanat d'Afrique de l'Ouest.">
+  <meta name="description" content="Toute la gamme ORGA_ME : thé de corossol, moringa, gingembre, pissenlit et plus. Artisanal en Afrique de l'Ouest.">
   <title>Produits — ORGA_ME</title>
   <link rel="stylesheet" href="../assets/styles.css">
   <script defer src="../assets/script.js"></script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="brand">ORGA_ME</h1>
-      <nav>
-        <a href="index.html">Accueil</a>
-        <a href="about.html">À Propos</a>
-        <a href="supporters.html">Soutiens</a>
-        <a href="../en/products.html">English</a>
-      </nav>
-    </div>
-  </header>
-  
-  <main class="container">
-    <h2 class="reveal">Notre Gamme Complète</h2>
-    <p class="lead reveal">Explorez notre collection de produits artisanaux à base de plantes, chacun avec des descriptions détaillées et des instructions de préparation.</p>
-    <div class="products-grid">
-      <article class="card">
-        <img src="../assets/images/granulated-main.png" alt="Gingembre Granulé" class="card-image" />
-        <h3><a href="products/granulated-ginger.html">Gingembre Granulé</a></h3>
-        <p class="muted">Granules de gingembre premium en trois variétés.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/gingcuci-main.png" alt="Gingcuci" class="card-image" />
-        <h3><a href="products/gingcuci.html">Gingcuci</a></h3>
-        <p class="muted">Mélange réchauffant pour la circulation et le bien-être.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/tea-gingcuci.jpg" alt="Thé Gingcuci" class="card-image" />
-        <h3><a href="products/tea-gingcuci.html">Thé Gingcuci</a></h3>
-        <p class="muted">Variétés classique, poudre et jaune pour l'équilibre quotidien.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/dandelion-main.png" alt="Thé de Pissenlit" class="card-image" />
-        <h3><a href="products/dandelion-tea.html">Thé de Pissenlit</a></h3>
-        <p class="muted">Infusion pour le soutien hépatique et la détoxification.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/moringa-main.png" alt="Poudre de Moringa" class="card-image" />
-        <h3><a href="products/moringa.html">Poudre de Moringa</a></h3>
-        <p class="muted">Super-aliment pour l'énergie, les nutriments et la vitalité.</p>
-      </article>
-      <article class="card">
-        <img src="../assets/images/soursop-main.jpg" alt="Thé de Corossol" class="card-image" />
-        <h3><a href="products/soursop.html">Thé de Corossol</a></h3>
-        <p class="muted">Riche en antioxydants pour la digestion et l'équilibre immunitaire.</p>
-      </article>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header" id="siteHeader"><div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c-5 0-8-3.5-8-8 0-5 4-9 12-9 1.5 0 3 .2 4 .6C19.5 8 20 12 20 13c0 4.5-3.5 8-8 8Z"/><path d="M12 21c0-6 2-10 7-12"/></svg></span>ORGA_ME</a>
+    <nav class="desktop-nav" aria-label="Principal"><a href="index.html">Accueil</a><div class="drop-wrap"><button class="drop-btn" aria-expanded="false">Produits ▾</button><div class="dropdown-menu"><a href="products/granulated-ginger.html"><img decoding="async"  src="../assets/images/granulated-ginger-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Gingembre Granulé</strong><small>Trois variétés</small></span></a><a href="products/gingcuci.html"><img decoding="async"  src="../assets/images/gingcuci-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Gingcuci</strong><small>Mélange</small></span></a><a href="products/tea-gingcuci.html"><img decoding="async"  src="../assets/images/tea-gingcuci-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Thé Gingcuci</strong><small>3 variétés</small></span></a><a href="products/dandelion-tea.html"><img decoding="async"  src="../assets/images/dandelion-tea-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Pissenlit</strong><small>Détox</small></span></a><a href="products/moringa.html"><img decoding="async"  src="../assets/images/moringa-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Moringa</strong><small>Super-aliment</small></span></a><a href="products/soursop.html"><img decoding="async"  src="../assets/images/soursop-main.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Corossol</strong><small>Immunité</small></span></a></div></div><a href="about.html">À Propos</a><a href="supporters.html">Soutiens</a></nav>
+    <div class="nav-actions"><a class="lang-toggle" href="../en/products.html" hreflang="en">EN</a><a class="btn btn-sm" href="tel:+221773798463">Contact</a><button class="hamburger" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div>
+  </div></header>
+  <div class="mobile-menu" id="mobileMenu"><div class="mobile-backdrop" data-close></div><nav class="mobile-panel" aria-label="Mobile"><button class="btn btn-ghost btn-sm mobile-close" data-close>Fermer ✕</button><a href="index.html">🏠 Accueil</a><a href="products.html" aria-current="page">🛍 Produits</a><a href="about.html">À Propos</a><a href="supporters.html">Soutiens</a><a href="../en/products.html">🇬🇧 English</a><a class="btn" href="tel:+221773798463" style="margin-top:12px">📞 Contact</a></nav></div>
+  <main class="container" id="main">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span>›</span><span>Produits</span></nav>
+    <p class="kicker reveal-left load-1">Gamme complète</p>
+    <h1 class="section-title reveal-left load-1">Tous nos produits.</h1>
+    <p class="section-sub reveal load-2">Six remèdes artisanaux. Filtrez par type, touchez pour un aperçu, ouvrez pour le guide.</p>
+    <div class="chips reveal load-3" data-chips role="group" aria-label="Filtrer"><button class="chip" data-filter="all" aria-pressed="true">Tout (6)</button><button class="chip" data-filter="tea" aria-pressed="false">Thés</button><button class="chip" data-filter="powder" aria-pressed="false">Poudres</button><button class="chip" data-filter="blend" aria-pressed="false">Mélanges</button></div>
+    <div class="grid stagger">
+      <article class="card" tabindex="0" data-quickview data-cat="blend" data-tag="Thés & cuisine" data-title="Gingembre Granulé" data-desc="Granules premium en trois variétés." data-img="../assets/images/granulated-ginger-1.jpg" data-url="products/granulated-ginger.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/granulated-ginger-1-400.webp 400w, ../assets/images/granulated-ginger-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/granulated-ginger-1-400.jpg 400w, ../assets/images/granulated-ginger-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/granulated-ginger-1.jpg" alt="Gingembre Granulé" width="800" height="600" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Mélange</span><h3><a href="products/granulated-ginger.html">Gingembre Granulé</a></h3><p>Granules premium en trois variétés.</p><span class="card-link">Aperçu →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="blend" data-tag="Mélange" data-title="Gingcuci" data-desc="Mélange réchauffant pour la circulation." data-img="../assets/images/gingcuci-1.jpg" data-url="products/gingcuci.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/gingcuci-1-400.webp 400w, ../assets/images/gingcuci-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/gingcuci-1-400.jpg 400w, ../assets/images/gingcuci-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/gingcuci-1.jpg" alt="Gingcuci" width="800" height="533" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Mélange</span><h3><a href="products/gingcuci.html">Gingcuci</a></h3><p>Mélange réchauffant pour la circulation.</p><span class="card-link">Aperçu →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="tea" data-tag="Équilibre" data-title="Thé Gingcuci" data-desc="Classique, poudre et jaune." data-img="../assets/images/tea-gingcuci-1.jpg" data-url="products/tea-gingcuci.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/tea-gingcuci-1-400.webp 400w, ../assets/images/tea-gingcuci-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/tea-gingcuci-1-400.jpg 400w, ../assets/images/tea-gingcuci-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/tea-gingcuci-1.jpg" alt="Thé Gingcuci" width="800" height="533" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Thé</span><h3><a href="products/tea-gingcuci.html">Thé Gingcuci</a></h3><p>Classique, poudre et jaune.</p><span class="card-link">Aperçu →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="tea" data-tag="Détox" data-title="Thé de Pissenlit" data-desc="Infusion détox pour le foie." data-img="../assets/images/dandelion-tea-1.jpg" data-url="products/dandelion-tea.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/dandelion-tea-1-400.webp 400w, ../assets/images/dandelion-tea-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/dandelion-tea-1-400.jpg 400w, ../assets/images/dandelion-tea-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/dandelion-tea-1.jpg" alt="Thé de Pissenlit" width="800" height="1066" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Thé</span><h3><a href="products/dandelion-tea.html">Thé de Pissenlit</a></h3><p>Infusion détox pour le foie.</p><span class="card-link">Aperçu →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="powder" data-tag="Super-aliment" data-title="Poudre de Moringa" data-desc="Énergie et vitalité." data-img="../assets/images/moringa-1.jpg" data-url="products/moringa.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/moringa-1-400.webp 400w, ../assets/images/moringa-1.webp 800w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/moringa-1-400.jpg 400w, ../assets/images/moringa-1.jpg 800w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/moringa-1.jpg" alt="Poudre de Moringa" width="800" height="1067" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Poudre</span><h3><a href="products/moringa.html">Poudre de Moringa</a></h3><p>Énergie et vitalité.</p><span class="card-link">Aperçu →</span></div></article>
+      <article class="card" tabindex="0" data-quickview data-cat="tea" data-tag="Immunité" data-title="Thé de Corossol" data-desc="Antioxydants pour la digestion." data-img="../assets/images/soursop-main.jpg" data-url="products/soursop.html"><div class="card-media skel"><picture><source type="image/webp" srcset="../assets/images/soursop-main-400.webp 400w, ../assets/images/soursop-main.webp 1080w" sizes="(max-width: 640px) 100vw, 800px"><img decoding="async"  srcset="../assets/images/soursop-main-400.jpg 400w, ../assets/images/soursop-main.jpg 1080w" sizes="(max-width: 640px) 100vw, 800px" src="../assets/images/soursop-main.jpg" alt="Thé de Corossol" width="1080" height="774" loading="lazy" data-fade></picture></div><div class="card-body"><span class="card-tag">Thé</span><h3><a href="products/soursop.html">Thé de Corossol</a></h3><p>Digestion et immunité.</p><span class="card-link">Aperçu →</span></div></article>
     </div>
   </main>
-  
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; ORGA_ME — Produits Biologiques &bull; Basé au Togo et au Sénégal</p>
-      <p><strong>Responsable :</strong> Elyzabeth K. Fanlome</p>
-      <p><strong>Téléphone :</strong> +221 77 379 84 63 / +221 78 125 39 77</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container"><div class="foot-grid"><div><h4>ORGA_ME</h4><p style="font-size:.93rem;color:rgba(255,255,255,.78)">Togo &amp; Sénégal. Responsable : <strong>Elyzabeth K. Fanlome</strong></p></div><div><h4>Explorer</h4><a href="index.html">Accueil</a><a href="products.html">Produits</a><a href="about.html">À propos</a><a href="supporters.html">Soutiens</a></div><div><h4>Contact</h4><a href="tel:+221773798463">+221 77 379 84 63</a><a href="tel:+221781253977">+221 78 125 39 77</a><a href="../en/products.html">English version</a></div></div><div class="foot-base"><span>© ORGA_ME — Produits Biologiques</span></div></div></footer>
+  <div class="overlay" id="quickView" role="dialog" aria-modal="true" aria-label="Aperçu"><div class="dialog"><div class="dialog-media"><img data-qv-img src="" alt="" width="800" height="500"></div><div class="dialog-body"><span class="card-tag" data-qv-tag></span><h3 data-qv-title></h3><p class="section-sub" data-qv-desc style="margin-bottom:18px"></p><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn" data-qv-link href="#">Guide complet →</a><button class="btn btn-secondary" data-close-ov>Fermer</button></div></div></div></div>
 </body>
 </html>

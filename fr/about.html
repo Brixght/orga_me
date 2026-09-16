@@ -3,46 +3,29 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Découvrez ORGA_ME — une entreprise familiale du Togo et Sénégal, établie en 2022, créant des thés et poudres biologiques selon des méthodes traditionnelles.">
+  <meta name="description" content="Découvrez ORGA_ME — entreprise familiale du Togo et Sénégal, établie en 2022. Thés et poudres biologiques.">
   <title>À propos — ORGA_ME</title>
   <link rel="stylesheet" href="../assets/styles.css">
   <script defer src="../assets/script.js"></script>
 </head>
-<body class="fade-in">
-  <header class="site-header">
-    <div class="container">
-      <h1 class="brand">ORGA_ME</h1>
-      <nav>
-        <a href="index.html">Accueil</a>
-        <a href="products.html">Produits</a>
-        <a href="supporters.html">Soutiens</a>
-        <a href="../en/about.html">English</a>
-      </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <article class="about">
-      <h2>À propos de notre entreprise familiale</h2>
-      <p>
-        ORGA_ME est une entreprise familiale originaire du Togo et du Sénégal, établie en 2022. Pour des générations, notre famille
-        a récolté et préparé des produits à base de plantes, en privilégiant la qualité, la durabilité et la santé
-        de nos clients. Nous produisons des thés biologiques et des poudres nutritives à partir de plantes locales.
-      </p>
-
-      <h3>Notre mission</h3>
-      <p>
-        Fournir des produits végétaux biologiques de haute qualité qui nourrissent le corps et soutiennent les
-        communautés locales, tout en promouvant une agriculture durable et en préservant les savoirs traditionnels.
-      </p>
-    </article>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header" id="siteHeader"><div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21c-5 0-8-3.5-8-8 0-5 4-9 12-9 1.5 0 3 .2 4 .6C19.5 8 20 12 20 13c0 4.5-3.5 8-8 8Z"/><path d="M12 21c0-6 2-10 7-12"/></svg></span>ORGA_ME</a>
+    <nav class="desktop-nav" aria-label="Principal"><a href="index.html">Accueil</a><div class="drop-wrap"><button class="drop-btn" aria-expanded="false">Produits ▾</button><div class="dropdown-menu"><a href="products/soursop.html"><img decoding="async"  src="../assets/images/soursop-main.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Corossol</strong></span></a><a href="products/moringa.html"><img decoding="async"  src="../assets/images/moringa-1.jpg" alt="" width="88" height="88" loading="lazy"><span><strong>Moringa</strong></span></a></div></div><a href="about.html" aria-current="page">À Propos</a><a href="supporters.html">Soutiens</a></nav>
+    <div class="nav-actions"><a class="lang-toggle" href="../en/about.html" hreflang="en">EN</a><a class="btn btn-sm" href="tel:+221773798463">Contact</a><button class="hamburger" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div>
+  </div></header>
+  <div class="mobile-menu" id="mobileMenu"><div class="mobile-backdrop" data-close></div><nav class="mobile-panel" aria-label="Mobile"><button class="btn btn-ghost btn-sm mobile-close" data-close>Fermer ✕</button><a href="index.html">🏠 Accueil</a><a href="products.html">🛍 Produits</a><a href="about.html" aria-current="page">À Propos</a><a href="supporters.html">Soutiens</a><a href="../en/about.html">🇬🇧 English</a></nav></div>
+  <main class="container" id="main">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span>›</span><span>À propos</span></nav>
+    <section class="section" style="padding-top:20px"><div class="split">
+      <div><p class="kicker reveal-left load-1">Notre histoire</p><h1 class="section-title reveal-left load-1">Notre entreprise familiale.</h1>
+        <div class="prose reveal load-2"><p>ORGA_ME est une entreprise familiale originaire du Togo et du Sénégal, établie en 2022. Pour des générations, notre famille a récolté et préparé des produits à base de plantes, en privilégiant la qualité, la durabilité et la santé de nos clients.</p><p>Nous produisons des thés biologiques et des poudres nutritives à partir de plantes locales comme le corossol, le moringa et le gingembre.</p><h2>Notre mission</h2><p>Fournir des produits végétaux biologiques de haute qualité qui nourrissent le corps et soutiennent les communautés locales, tout en promouvant une agriculture durable.</p></div>
+        <div class="hero-stats reveal load-3" style="margin-top:22px"><div class="stat"><strong><span data-count="2022">0</span></strong><span>fondation</span></div><div class="stat"><strong><span data-count="6">0</span></strong><span>produits</span></div><div class="stat"><strong><span data-count="100">0</span>%</strong><span>végétal</span></div></div>
+      </div>
+      <div class="panel reveal load-2"><h2 class="section-title" style="font-size:1.4rem">Notre méthode</h2><div class="prose"><h3>🌱 Local</h3><p>Petits producteurs du Togo et du Sénégal, récolte à maturité.</p><h3>☀️ Séchage doux</h3><p>Soleil et ombre pour préserver arômes et nutriments.</p><h3>📦 Petits lots</h3><p>Testés pour la qualité. Sans additifs ni conservateurs.</p></div><div style="margin-top:20px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="products.html">Voir produits →</a><a class="btn btn-secondary" href="tel:+221773798463">Appeler</a></div></div>
+    </div></section>
   </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© ORGA_ME — Famille au Togo & Sénégal</p>
-      <p><strong>Responsable:</strong> Elyzabeth K. Fanlome | <strong>Contact:</strong> +221 77 379 8463 / +221 78 125 3977</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container"><div class="foot-grid"><div><h4>ORGA_ME</h4><p style="font-size:.93rem;color:rgba(255,255,255,.78)">Famille au Togo &amp; Sénégal. Responsable : <strong>Elyzabeth K. Fanlome</strong></p></div><div><h4>Explorer</h4><a href="index.html">Accueil</a><a href="products.html">Produits</a><a href="supporters.html">Soutiens</a></div><div><h4>Contact</h4><a href="tel:+221773798463">+221 77 379 84 63</a><a href="../en/about.html">English version</a></div></div><div class="foot-base"><span>© ORGA_ME — Produits Biologiques</span></div></div></footer>
 </body>
 </html>
